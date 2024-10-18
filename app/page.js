@@ -41,7 +41,7 @@ export default function Home() {
               I am Viswa i am Frontend Developer i am learning full stack right now my scope of interests are in website development. <span>I'm interested in AI topics and MERN which is widely used in development industry.</span>
             </p>
             <div className="call-to-action">
-              <a href="./resume/13-10-24-Resume Updated.pdf" className="button black" target="_blank">
+              <a href="./resume/18-10-2024.pdf" className="button black" target="_blank">
                 View Resume
               </a>
               <a href="mailto:viswamalar2004@gmail.com" className="button white">
