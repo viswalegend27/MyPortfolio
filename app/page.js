@@ -38,7 +38,7 @@ export default function Home() {
               Viswa V
             </h1>
             <p>
-              I am Viswa i am Frontend Developer i am learning full stack right now my scope of interests are in website development. <span>I'm interested in AI topics and MERN which is widely used in development industry.</span>
+              I am Frontend Developer i am learning full stack right now my scope of interests are in website development. <span>I'm interested in AI topics and MERN which is widely used in development industry.</span>
             </p>
             <div className="call-to-action">
               <a href="./resume/18-10-2024.pdf" className="button black" target="_blank">
@@ -109,12 +109,13 @@ export default function Home() {
             </ul>
           </div>
           <div className="right-column">
-            <h3>A bit about me</h3>
+            <h3>A Bit About Me</h3>
             <p>
-              I am Viswa i am Frontend Developer i am learning full stack right now my scope of interests are in website development. I'm interested in AI topics and MERN which is widely used in development industry.
+                I am Viswa, a Frontend Developer, currently learning full-stack development. 
+                My areas of interest include website development, AI, and MERN, which is widely used in the development industry.
             </p>
             <p>
-              I'm currently working on a project that uses Django as database to create a product and their details that can help user of an commercial company to navigate their products.  I also worked on a project that uses React and Next.js to create a crowdfunding that uses cryptowallet to transfer money.
+                I am currently working on a project that uses Django as a database to create a product and its details, aimed at helping users of a commercial company navigate their products. I have also worked on a project using React and Next.js to create a crowdfunding platform that utilizes a cryptowallet for money transfers.
             </p>
           </div>
         </div>
@@ -157,15 +158,15 @@ export default function Home() {
           <article>
             <figure>
               <div>
-                <img src="./imgs/workplace-3.jpg" alt="MERN Stack Development" width="100%" />
+                <img src="./imgs/workplace-3.jpg" alt="Frontend Development" width="100%" />
                 <figcaption>
-                  MERN Stack Development
+                  Frontend Development
                 </figcaption>
               </div>
             </figure>
             <h3>Block-Fund</h3>
             <div>2023-2024</div>
-            <p>I have undergone group project development using MERN stack.</p>
+            <p>I have undergone group project development using Web3.</p>
             <p>An project based on working of crypto-currency in crowdfund.</p>
           </article>  
         </div>

@@ -306,10 +306,12 @@ h3 {
 
 .skills .right-column {
   flex: 1;
+  
 }
 
 .skills .right-column p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .work-experience .jobs {
