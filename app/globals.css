@@ -166,17 +166,18 @@ section {
   border-radius: 30px;
   padding: 0 30px;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: center;   
+  align-items: center;       
 }
 
 .hero-purple img {
-  margin-top: -60px;
-  max-width: 420px;
-  margin-bottom: -10px;
-  border-radius: 15px;
+  max-width: 350px;
+  border-radius: 5px;
   filter: drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.5));
+  padding-top: 0;      
+  padding-bottom: 0;   
 }
+
 
 .call-to-action {
   margin-top: 20px;
@@ -675,11 +676,11 @@ footer {
           width: 75px;
           border-radius: 20px;
           cursor: pointer;
-          transition: transform 0.3s ease; /* Smooth animation */
+          transition: transform 0.3s ease; 
         }
 
         .footer-logo:hover {
-          transform: scale(1.10); /* Increases size by 15% */
+          transform: scale(1.10); 
         }
 
         .footer-about p {

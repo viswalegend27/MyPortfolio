@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-purple">
-          <img src="./imgs/Viswa Photo - Chatgpt 2-Background Removed.png" alt="viswa-image" width="100%" />
+          <img src="./imgs/Viswa Photo.png" alt="viswa-image" width="100%" />
         </div>
       </section>
       <section className="logos container">
