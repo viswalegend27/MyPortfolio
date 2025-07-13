@@ -31,7 +31,7 @@ export default function Home() {
         </a>
     </header>
     <main>
-      <section className="hero container">
+      <section className="hero container" id="hero">
         <div className="hero-blue">
           <div>
             <h1><small>Hi I'm</small>
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-purple">
-          <img src="./imgs/hero-image.png" alt="viswa-image" width="100%" />
+          <img src="./imgs/Viswa Photo - Chatgpt 2-Background Removed.png" alt="viswa-image" width="100%" />
         </div>
       </section>
       <section className="logos container">
@@ -104,23 +104,23 @@ export default function Home() {
             <ul>
               <li>Node.js</li>
               <li>Express</li>
-              <li>Python</li>
-              <li>Java</li>
+              <li>SQL</li>
+              <li>PostgreSQL</li>
             </ul>
           </div>
           <div className="right-column">
             <h3>A Bit About Me</h3>
             <p>
-                I am Viswa, a Frontend Developer, currently learning full-stack development. 
+                I am Viswa, a Fullstack Developer, currently aspiring in the field of  full-stack development. Fishing for opurtunities in the world of Development.
                 My areas of interest include website development, AI, and MERN, which is widely used in the development industry.
             </p>
             <p>
-                I am currently working on a project that uses Django as a database to create a product and its details, aimed at helping users of a commercial company navigate their products. I have also worked on a project using React and Next.js to create a crowdfunding platform that utilizes a cryptowallet for money transfers.
+                I have completed a project that uses Django as a database to create a product and its details, aimed at helping users of a commercial company navigate their products. I have also worked on a project using React and Next.js to create a crowdfunding platform that utilizes a cryptowallet for money transfers. Basically would like to work on the concept of empowering user friendly application design.
             </p>
           </div>
         </div>
       </section>
-      <section className="work-experience container">
+      <section className="work-experience container" id="work-experience">
         <h2>
           <small>Recent</small>
           Work Experience
@@ -129,17 +129,17 @@ export default function Home() {
           <article>
             <figure>
               <div>
-                <img src="./imgs/workplace-1.jpg" alt="DigiAlert" width="100%" />
+                <img src="./imgs/Plant Guardian Home Page.png" alt="Plant Guardian" width="100%" />
                 <figcaption>
-                  DigiAlert
+                  Plant Guardian
                 </figcaption>
               </div>
             </figure>
-            <h3>Cybersecurity Intern</h3>
-            <div>2023</div>
-            <p>I acquired knowledge in cybersecurity and networking.</p>
-            <p>Learned about Basics of penetration testing.</p>
-            <p>Obtained knowledge about Burpsuite and its usage in networking.</p>
+            <h3>CS Final Year Project</h3>
+            <div>2024-25</div>
+            <p>An group project based upon machine learning.</p>
+            <p>Understand the concepts behind CNN Model.</p>
+            <p>One of the main view of the project is understanding the concept of how well the model identifies the plant and it's structural properties.</p>
           </article>
           <article>
             <figure>
@@ -227,6 +227,36 @@ export default function Home() {
       </div>
     </section>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">YourLogo</div>
+                <p>Portfolio of an aspiring job fresher who is seeking for task and challenge based job opportunities</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#skills">Skill sets</a></li>
+                    <li><a href="#work-experience">Work experience</a></li>
+                    <li><a href="#hero">About me</a></li>
+                    <li><a href="mailto:viswamalar2004@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><span>📍</span> Chennai</p>
+                <p><span>📞</span> +91 7845425810</p>
+                <p><span>✉️</span> viswamalar2004@gmail.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 NoCompany. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
     </>
   );
 }
