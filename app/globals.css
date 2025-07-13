@@ -672,11 +672,16 @@ footer {
         }
         
         .footer-logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
+          width: 75px;
+          border-radius: 20px;
+          cursor: pointer;
+          transition: transform 0.3s ease; /* Smooth animation */
         }
-        
+
+        .footer-logo:hover {
+          transform: scale(1.10); /* Increases size by 15% */
+        }
+
         .footer-about p {
             margin-bottom: 1rem;
             line-height: 1.6;
@@ -771,3 +776,4 @@ footer {
                 margin-top: 1.5rem;
             }
   }
+

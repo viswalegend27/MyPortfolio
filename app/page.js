@@ -230,7 +230,7 @@ export default function Home() {
     <footer>
         <div class="footer-container">
             <div class="footer-about">
-                <div class="footer-logo">YourLogo</div>
+                <img src="./imgs/Logo- 2.jpg" className="footer-logo"/>
                 <p>Portfolio of an aspiring job fresher who is seeking for task and challenge based job opportunities</p>
             </div>
             
